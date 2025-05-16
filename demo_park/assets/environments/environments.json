@@ -1,0 +1,45 @@
+{
+    "overworld":
+    
+        {
+            "layers":
+                [
+                    "ground",
+                    "curbs",
+                    "walkprops",
+                    "greens",
+                    "cars",
+                    "buildings0",
+                    "buildings1",
+                    "buildings2",
+                    "roadprops"
+                ],
+
+            "ground-level": 2.5,
+
+            "collision-map": "collision.json",
+            "collision-tiles": "collisionTiles.png",
+
+            "theme": "overworld-theme.ogg"
+
+        },
+
+    "voting-office":
+
+        {
+            "layers":
+                [
+                    "floors",
+                    "walls",
+                    "chair-butt",
+                    "chair-top",
+                    "props"
+                ],
+
+            "ground-level": 2.5,
+
+            "collision-map": "collision.json",
+            "collision-tiles": "collisionTiles.png"
+            
+        }
+}
